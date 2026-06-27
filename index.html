@@ -369,7 +369,9 @@
     }
     .prod-name { font-size: 13px; font-weight: 600; color: #dce5ef; margin-bottom: 4px; line-height: 1.35; flex: 1; }
     .prod-count { font-size: 11px; color: var(--muted); margin-bottom: 11px; }
-    .prod-price { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 11px; }
+    .prod-price { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .prod-detail { font-size: 12px; color: var(--teal); text-decoration: none; margin-bottom: 9px; display: block; }
+    .prod-detail:hover { text-decoration: underline; }
 
     /* ── Custom Section ──────────────────────────────────── */
     .custom-box {
@@ -811,24 +813,24 @@ const comparisonRows = [
 ];
 
 const individualLeadLists = [
-  { name: 'UK Solicitors Lead List',                              subtitle: '100 Verified Firms',       link: 'https://flevin4.gumroad.com/l/jdhxsw', category: 'Legal'        },
-  { name: 'UK Dental Practices Lead List',                        subtitle: '100 Verified Practices',   link: 'https://flevin4.gumroad.com/l/pcbrv',   category: 'Healthcare'   },
-  { name: 'UK Estate Agents Lead List',                           subtitle: '100 Verified Agencies',    link: 'https://flevin4.gumroad.com/l/iapas',   category: 'Property'     },
-  { name: 'UK Accountants Lead List',                             subtitle: '100 Verified Firms',       link: 'https://flevin4.gumroad.com/l/wnlwkg',  category: 'Finance'      },
-  { name: 'UK Gyms and Fitness Lead List',                        subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/jhxct',   category: 'Health'       },
-  { name: 'UK Restaurants Lead List',                             subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/mfcbkj',  category: 'Hospitality'  },
-  { name: 'UK Plumbers and Heating Engineers Lead List',          subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/fneabi',  category: 'Trades'       },
-  { name: 'UK Mortgage Brokers Lead List',                        subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/tzxten',  category: 'Finance'      },
-  { name: 'UK Care Homes and Nursing Homes Lead List',            subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/zensiw',  category: 'Healthcare'   },
-  { name: 'UK Chartered Surveyors Lead List',                     subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/hggidt',  category: 'Property'     },
-  { name: 'UK IT and Managed Service Providers (MSPs)',           subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/ppzonc',  category: 'Technology'   },
-  { name: 'UK Veterinary Practices Lead List',                    subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/fgobc',   category: 'Healthcare'   },
-  { name: 'UK Opticians and Optical Practices',                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/uxwpjs',  category: 'Healthcare'   },
-  { name: 'UK Private and Independent Schools',                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/zfica',   category: 'Education'    },
-  { name: 'UK Car Dealerships',                                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/sxcdjs',  category: 'Automotive'   },
-  { name: 'UK Architects and Architectural Practices',            subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/xehgfx',  category: 'Professional' },
-  { name: 'UK Pharmacies and Pharmaceutical Retailers',           subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/njgxwk',  category: 'Healthcare'   },
-  { name: 'UK Recruitment and Staffing Agencies',                 subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/nshhr',   category: 'Professional' },
+  { name: 'UK Solicitors Lead List',                              subtitle: '100 Verified Firms',       link: 'https://flevin4.gumroad.com/l/jdhxsw', category: 'Legal',        page: '/uk-solicitors-lead-list/'           },
+  { name: 'UK Dental Practices Lead List',                        subtitle: '100 Verified Practices',   link: 'https://flevin4.gumroad.com/l/pcbrv',   category: 'Healthcare',   page: '/uk-dental-practices-lead-list/'     },
+  { name: 'UK Estate Agents Lead List',                           subtitle: '100 Verified Agencies',    link: 'https://flevin4.gumroad.com/l/iapas',   category: 'Property',     page: '/uk-estate-agents-lead-list/'        },
+  { name: 'UK Accountants Lead List',                             subtitle: '100 Verified Firms',       link: 'https://flevin4.gumroad.com/l/wnlwkg',  category: 'Finance',      page: '/uk-accountants-lead-list/'          },
+  { name: 'UK Gyms and Fitness Lead List',                        subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/jhxct',   category: 'Health',       page: '/uk-gyms-fitness-lead-list/'         },
+  { name: 'UK Restaurants Lead List',                             subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/mfcbkj',  category: 'Hospitality',  page: '/uk-restaurants-lead-list/'          },
+  { name: 'UK Plumbers and Heating Engineers Lead List',          subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/fneabi',  category: 'Trades',       page: '/uk-plumbers-heating-lead-list/'     },
+  { name: 'UK Mortgage Brokers Lead List',                        subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/tzxten',  category: 'Finance',      page: '/uk-mortgage-brokers-lead-list/'     },
+  { name: 'UK Care Homes and Nursing Homes Lead List',            subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/zensiw',  category: 'Healthcare',   page: '/uk-care-homes-lead-list/'           },
+  { name: 'UK Chartered Surveyors Lead List',                     subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/hggidt',  category: 'Property',     page: '/uk-chartered-surveyors-lead-list/'  },
+  { name: 'UK IT and Managed Service Providers (MSPs)',           subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/ppzonc',  category: 'Technology',   page: '/uk-it-msps-lead-list/'              },
+  { name: 'UK Veterinary Practices Lead List',                    subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/fgobc',   category: 'Healthcare',   page: '/uk-veterinary-practices-lead-list/' },
+  { name: 'UK Opticians and Optical Practices',                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/uxwpjs',  category: 'Healthcare',   page: '/uk-opticians-lead-list/'            },
+  { name: 'UK Private and Independent Schools',                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/zfica',   category: 'Education',    page: '/uk-private-schools-lead-list/'      },
+  { name: 'UK Car Dealerships',                                   subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/sxcdjs',  category: 'Automotive',   page: '/uk-car-dealerships-lead-list/'      },
+  { name: 'UK Architects and Architectural Practices',            subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/xehgfx',  category: 'Professional', page: '/uk-architects-lead-list/'           },
+  { name: 'UK Pharmacies and Pharmaceutical Retailers',           subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/njgxwk',  category: 'Healthcare',   page: '/uk-pharmacies-lead-list/'           },
+  { name: 'UK Recruitment and Staffing Agencies',                 subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/nshhr',   category: 'Professional', page: '/uk-recruitment-agencies-lead-list/' },
   { name: 'UK Electricians — Verified Business Lead List',        subtitle: '100 Verified Businesses',  link: 'https://flevin4.gumroad.com/l/mmylzv',  category: 'Trades'       },
   { name: 'UK Hairdressers and Salons — Verified Business Lead List',         subtitle: '100 Verified Businesses', link: 'https://flevin4.gumroad.com/l/hqbsq', category: 'Beauty'     },
   { name: 'UK Physiotherapy and Chiropractic Clinics — Verified Lead List',   subtitle: '100 Verified Businesses', link: 'https://flevin4.gumroad.com/l/hzsyg', category: 'Healthcare' },
@@ -953,6 +955,7 @@ function renderProductGrid() {
       <div class="prod-name">${p.name}</div>
       <div class="prod-count">${p.subtitle}</div>
       <div class="prod-price">$75</div>
+      ${p.page ? `<a href="${p.page}" class="prod-detail">View details →</a>` : ''}
       <a href="${p.link}" target="_blank" rel="noopener" class="btn btn-outline btn-block">Buy on Gumroad</a>
     </div>`).join('');
 }
