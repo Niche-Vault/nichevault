@@ -765,7 +765,9 @@ const bundles = [
   {
     name: 'UK Starter Bundle',
     link: 'https://flevin4.gumroad.com/l/aqcqlu',
-    price: 250,
+    price: 225,
+    oldPrice: 300,
+    saveText: 'Save $75 vs buying individually',
     description: 'Entry bundle for testing outreach across four proven sectors.',
     bullets: [
       'Solicitors',
@@ -798,7 +800,7 @@ const bundles = [
 ];
 
 const comparisonRows = [
-  { name: 'UK Starter Bundle',                         niches: 4,  records: 400,   bestFor: 'Testing outreach',              price: '$250',   link: 'https://flevin4.gumroad.com/l/aqcqlu' },
+  { name: 'UK Starter Bundle',                         niches: 4,  records: 400,   bestFor: 'Testing outreach',              price: '$225',   link: 'https://flevin4.gumroad.com/l/aqcqlu' },
   { name: 'UK Core Bundle',                            niches: 6,  records: 600,   bestFor: 'Core professional sectors',      price: '$350',   link: 'https://flevin4.gumroad.com/l/drshz'  },
   { name: 'UK Infrastructure & Local Services Bundle', niches: 6,  records: 600,   bestFor: 'Local service targeting',        price: '$350',   link: 'https://flevin4.gumroad.com/l/cfvqn'  },
   { name: 'UK New Niches Collection',                  niches: 6,  records: 600,   bestFor: 'Expanding into fresh sectors',   price: '$350',   link: 'https://flevin4.gumroad.com/l/qkelay' },
@@ -899,7 +901,7 @@ function bundleCardHTML(b) {
     <div class="price-row">
       <div class="price-main">${fmt(b.price)}</div>
       ${b.oldPrice ? `<div class="price-old">${fmt(b.oldPrice)}</div>` : ''}
-      ${save ? `<div class="price-save">Save ${save}%</div>` : ''}
+      ${b.saveText ? `<div class="price-save">${b.saveText}</div>` : save ? `<div class="price-save">Save ${save}%</div>` : ''}
     </div>
     <a href="${b.link}" target="_blank" rel="noopener" class="btn ${b.btnClass} btn-block">Buy on Gumroad</a>
   </div>`;
