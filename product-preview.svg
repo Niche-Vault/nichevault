@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a0a0a"/>
+
+  <!-- Header bar -->
+  <rect width="800" height="60" fill="#111"/>
+  <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Niche<tspan fill="#00d4aa">Vault</tspan></text>
+  <text x="776" y="38" font-family="Arial, sans-serif" font-size="13" fill="#00d4aa" text-anchor="end">Verified UK B2B Lead List</text>
+
+  <!-- Card -->
+  <rect x="24" y="80" width="752" height="396" rx="12" fill="#151515" stroke="#222" stroke-width="1"/>
+
+  <!-- Badge -->
+  <rect x="44" y="104" width="220" height="26" rx="13" fill="#00d4aa22" stroke="#00d4aa44" stroke-width="1"/>
+  <text x="154" y="121" font-family="Arial, sans-serif" font-size="12" fill="#00d4aa" text-anchor="middle">✓ Government-Verified Data · CSV</text>
+
+  <!-- Table header -->
+  <rect x="44" y="146" width="732" height="34" rx="4" fill="#1a1a1a"/>
+  <text x="60" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4aa">Business Name</text>
+  <text x="240" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4aa">Reg. Address</text>
+  <text x="440" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4aa">Phone</text>
+  <text x="570" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4aa">SIC Code</text>
+  <text x="680" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4aa">Status</text>
+
+  <!-- Row 1 -->
+  <rect x="44" y="180" width="732" height="32" fill="#111"/>
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Smith &amp; Partners LLP</text>
+  <text x="240" y="200" font-family="Arial, sans-serif" font-size="12" fill="#888">12 Fleet St, London</text>
+  <text x="440" y="200" font-family="Arial, sans-serif" font-size="12" fill="#888">020 7123 4567</text>
+  <text x="570" y="200" font-family="Arial, sans-serif" font-size="12" fill="#888">69102</text>
+  <rect x="680" y="188" width="56" height="18" rx="9" fill="#00d4aa22"/>
+  <text x="708" y="201" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">Active</text>
+
+  <!-- Row 2 -->
+  <rect x="44" y="212" width="732" height="32" fill="#151515"/>
+  <text x="60" y="232" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Thornton Advisory Ltd</text>
+  <text x="240" y="232" font-family="Arial, sans-serif" font-size="12" fill="#888">4 King St, Manchester</text>
+  <text x="440" y="232" font-family="Arial, sans-serif" font-size="12" fill="#888">0161 456 7890</text>
+  <text x="570" y="232" font-family="Arial, sans-serif" font-size="12" fill="#888">69102</text>
+  <rect x="680" y="220" width="56" height="18" rx="9" fill="#00d4aa22"/>
+  <text x="708" y="233" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">Active</text>
+
+  <!-- Row 3 -->
+  <rect x="44" y="244" width="732" height="32" fill="#111"/>
+  <text x="60" y="264" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Halcyon Law Group</text>
+  <text x="240" y="264" font-family="Arial, sans-serif" font-size="12" fill="#888">88 Deansgate, Leeds</text>
+  <text x="440" y="264" font-family="Arial, sans-serif" font-size="12" fill="#888">0113 789 0123</text>
+  <text x="570" y="264" font-family="Arial, sans-serif" font-size="12" fill="#888">69102</text>
+  <rect x="680" y="252" width="56" height="18" rx="9" fill="#00d4aa22"/>
+  <text x="708" y="265" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">Active</text>
+
+  <!-- Row 4 -->
+  <rect x="44" y="276" width="732" height="32" fill="#151515"/>
+  <text x="60" y="296" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Meridian Chambers</text>
+  <text x="240" y="296" font-family="Arial, sans-serif" font-size="12" fill="#888">21 Castle Rd, Bristol</text>
+  <text x="440" y="296" font-family="Arial, sans-serif" font-size="12" fill="#888">0117 234 5678</text>
+  <text x="570" y="296" font-family="Arial, sans-serif" font-size="12" fill="#888">69102</text>
+  <rect x="680" y="284" width="56" height="18" rx="9" fill="#00d4aa22"/>
+  <text x="708" y="297" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">Active</text>
+
+  <!-- Row 5 -->
+  <rect x="44" y="308" width="732" height="32" fill="#111"/>
+  <text x="60" y="328" font-family="Arial, sans-serif" font-size="12" fill="#cccccc">Westfield &amp; Co Solicitors</text>
+  <text x="240" y="328" font-family="Arial, sans-serif" font-size="12" fill="#888">7 High St, Birmingham</text>
+  <text x="440" y="328" font-family="Arial, sans-serif" font-size="12" fill="#888">0121 345 6789</text>
+  <text x="570" y="328" font-family="Arial, sans-serif" font-size="12" fill="#888">69102</text>
+  <rect x="680" y="316" width="56" height="18" rx="9" fill="#00d4aa22"/>
+  <text x="708" y="329" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">Active</text>
+
+  <!-- Fade rows -->
+  <rect x="44" y="340" width="732" height="96" fill="url(#fade)"/>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151515" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#151515" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stats bar -->
+  <rect x="44" y="436" width="732" height="28" rx="4" fill="#0d0d0d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="140" y="454" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">100 Records</text>
+  <text x="310" y="454" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">Companies House Verified</text>
+  <text x="510" y="454" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">CSV · Instant Download</text>
+  <text x="690" y="454" font-family="Arial, sans-serif" font-size="12" fill="#00d4aa" text-anchor="middle" font-weight="700">$75</text>
+</svg>

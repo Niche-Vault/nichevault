@@ -1,0 +1,9 @@
+{
+  "name": "Niche Vault",
+  "short_name": "NicheVault",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00d4aa",
+  "description": "Verified UK B2B Lead Lists"
+}
