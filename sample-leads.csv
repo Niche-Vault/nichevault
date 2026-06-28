@@ -1,26 +1,26 @@
-sector,company_name,status,address,incorporation_date,company_type,director_name,director_role
-Accountants,ACCOUNTANTS FOR GOOD LTD,active,"Iveco House, Watford, WD17 1ET, England",2022-10-06,ltd,"BANSAL, Amit",director
-Accountants,ACCOUNTANTS & BUSINESS SOLUTIONS LIMITED,active,"Bokers Farm Office, Poole, Dorset, BH16 6AG",2001-06-01,ltd,"BECK, Michelle",director
-Accountants,ACCOUNTANTS ON MISSION UK LTD,active,"74 Hunster Close, Doncaster, DN4 6RE, United Kingdom",2019-07-25,ltd,"ALEKADALA, Judith",secretary
-Accountants,ACCOUNTANTS OF KENT LIMITED,active,"599-613 Princes Road, Dartford, Kent, DA2 6HH, England",2020-06-11,ltd,"KOONER, Sukhbir Singh",director
-Accountants,ACCOUNTANTS MILTON KEYNES LTD,active,"52 The Boundary, Milton Keynes, Buckinghamshire, MK6 2HT, United Kingdom",2023-12-18,ltd,"MOHAMED ALIYAR, Shameel",director
-Accountants,ACCOUNTANTS FOR PROPERTY LIMITED,active,"The Innovation Centre (Amba), Chatham, Kent, ME5 9FD, United Kingdom",2024-12-13,ltd,"WOOD, Danny",director
-Accountants,ACCOUNTANTS FOR ECOMMERCE LIMITED,active,"Profile West First Floor Suite 2, Brentford, Middlesex, TW8 9ES, England",2021-02-09,ltd,"ASLAM, Muhammad Jamshaid",director
-Solicitors,ALANE LUNN SOLICITOR LIMITED,active,"48 Cloverley Road, Ongar, Essex, CM5 9BY, United Kingdom",2021-02-10,ltd,"LUNN, Alane Claire Gwyn",director
-Solicitors,ALEXANDER ROSE SOLICITORS LIMITED,active,"First Floor, Gants Hill, Essex, IG2 6UF, United Kingdom",2018-04-25,ltd,"KHAN, Shazia",director
-Solicitors,AG AND CO SOLICITORS LTD,active,"3 Buckthorne House, Chigwell, IG7 4AZ, England",2024-11-07,ltd,"MALIK, Assma",director
-Solicitors,A&CO SOLICITORS LIMITED,active,"56 Friar Gate, Derby, Derbyshire, DE1 1DF, England",2025-12-16,ltd,"BASEY, Katharine Louise",director
-Solicitors,AIR PASSENGER SOLICITORS LIMITED,active,"Meadow View Faygate Lane, Horsham, West Sussex, RH12 4SJ, United Kingdom",2019-07-22,ltd,"DAVIDSON, Nigel John",director
-Solicitors,ADCOCKS SOLICITORS LIMITED,active,"Chancery House 27 Lombard Street, Staffordshire, WS13 6DP",2001-01-26,ltd,"DI PIERRI, Frances Mary Ann",secretary
-Veterinary,VETERINARY CONCEPTS EUROPE LIMITED,active,"Unit 4 Merlin Way, Melksham, Wiltshire, SN12 6TJ",1990-04-26,ltd,"ANDERSON, Mark, Dr",director
-Veterinary,VETERINARY CARE BY DR NAOMI LTD,active,"4 Horner Garth, Driffield, YO25 5DQ, England",2024-08-16,ltd,"ROSS, Naomi Layla Lauren, Dr",director
-Veterinary,VETERINARY EQUINE DENTISTRY LIMITED,active,"Johnstonfield Dunbog, Cupar, Fife, KY14 6JG, Scotland",2018-07-18,ltd,"BURTON, Arthur Peter",director
-Veterinary,VETERINARY PAIN MANAGEMENT LTD,active,"9 Bearfield Buildings, Bradford-On-Avon, Wiltshire, BA15 1RP, England",2019-11-28,ltd,"PRINGLE, Ailsa Dorothy Lindsay, Dr",director
-Veterinary,VETERINARY PROCUREMENT PARTNERS LIMITED,active,"Nags Head Farm Nantwich Road, Newcastle, ST5 5EH, England",2026-04-07,ltd,"WRIGHT, Christopher Paul",director
-Veterinary,ALAN JEANS VETERINARY SERVICES LIMITED,active,"The Surgery, Girvan, Ayrshire, KA26 9DB",2003-09-18,ltd,"DENHAM, Hamish Duncan Cairns",director
-Restaurants,RESTAURANT AUGUSTINE LIMITED,active,"Un9 Armstrong House First Avenue, Doncaster, South Yorkshire, DN9 3GA, United Kingdom",2017-03-20,ltd,"ZILINSKAITE, Agne",director
-Restaurants,RESTAURANT NOTED LIMITED,active,"Open House Unita1 Harris Business Park, Stoke Prior, Bromsgrove, B60 4FG, United Kingdom",2025-05-13,ltd,"MORGAN, Emma Louise",director
-Restaurants,RESTAURANT @ THE CHURCH LIMITED,active,"8 Church Green East, Redditch, Worcestershire, B98 8BP, United Kingdom",2023-01-26,ltd,"BARBER, Wayne John",director
-Restaurants,RESTAURANT 1840 LTD,active,"Unit 448 Moat House Business Centre, Belfast, BT5 5AD, Northern Ireland",2016-11-01,ltd,"TENCH, Anjelica Cherry",director
-Restaurants,RESTAURANT ZANI LTD,active,"166 Dock Road, Tilbury, RM18 7BS, United Kingdom",2017-07-13,ltd,"VINCZE, Laszlo",secretary
-Restaurants,RESTAURANT ROYAL THAI LTD,active,"The Cottage, Brechin, Angus, DD9 7DJ, Scotland",2017-02-23,ltd,"HEBENTON, Natajon",director
+sector,company_name,company_number,status,address,incorporation_date,company_type,director_name,director_role
+Accountants,ACCOUNTANTS FOR GOOD LTD,14401748,active,"Iveco House, Watford, WD17 1ET, England",2022-10-06,ltd,"BANSAL, Amit",director
+Accountants,ACCOUNTANTS & BUSINESS SOLUTIONS LIMITED,04227206,active,"Bokers Farm Office, Poole, Dorset, BH16 6AG",2001-06-01,ltd,"BECK, Michelle",director
+Accountants,ACCOUNTANTS ON MISSION UK LTD,12122811,active,"74 Hunster Close, Doncaster, DN4 6RE, United Kingdom",2019-07-25,ltd,"ALEKADALA, Judith",secretary
+Accountants,ACCOUNTANTS OF KENT LIMITED,12663566,active,"599-613 Princes Road, Dartford, Kent, DA2 6HH, England",2020-06-11,ltd,"KOONER, Sukhbir Singh",director
+Accountants,ACCOUNTANTS MILTON KEYNES LTD,15358209,active,"52 The Boundary, Milton Keynes, Buckinghamshire, MK6 2HT, United Kingdom",2023-12-18,ltd,"MOHAMED ALIYAR, Shameel",director
+Accountants,ACCOUNTANTS FOR PROPERTY LIMITED,16133638,active,"The Innovation Centre (Amba), Chatham, Kent, ME5 9FD, United Kingdom",2024-12-13,ltd,"WOOD, Danny",director
+Accountants,ACCOUNTANTS FOR ECOMMERCE LIMITED,13189700,active,"Profile West First Floor Suite 2, Brentford, Middlesex, TW8 9ES, England",2021-02-09,ltd,"ASLAM, Muhammad Jamshaid",director
+Solicitors,ALANE LUNN SOLICITOR LIMITED,13192002,active,"48 Cloverley Road, Ongar, Essex, CM5 9BY, United Kingdom",2021-02-10,ltd,"LUNN, Alane Claire Gwyn",director
+Solicitors,ALEXANDER ROSE SOLICITORS LIMITED,11328575,active,"First Floor, Gants Hill, Essex, IG2 6UF, United Kingdom",2018-04-25,ltd,"KHAN, Shazia",director
+Solicitors,AG AND CO SOLICITORS LTD,16065919,active,"3 Buckthorne House, Chigwell, IG7 4AZ, England",2024-11-07,ltd,"MALIK, Assma",director
+Solicitors,A&CO SOLICITORS LIMITED,16914735,active,"56 Friar Gate, Derby, Derbyshire, DE1 1DF, England",2025-12-16,ltd,"BASEY, Katharine Louise",director
+Solicitors,AIR PASSENGER SOLICITORS LIMITED,12114580,active,"Meadow View Faygate Lane, Horsham, West Sussex, RH12 4SJ, United Kingdom",2019-07-22,ltd,"DAVIDSON, Nigel John",director
+Solicitors,ADCOCKS SOLICITORS LIMITED,04148593,active,"Chancery House 27 Lombard Street, Staffordshire, WS13 6DP",2001-01-26,ltd,"DI PIERRI, Frances Mary Ann",secretary
+Veterinary,VETERINARY CONCEPTS EUROPE LIMITED,02496265,active,"Unit 4 Merlin Way, Melksham, Wiltshire, SN12 6TJ",1990-04-26,ltd,"ANDERSON, Mark, Dr",director
+Veterinary,VETERINARY CARE BY DR NAOMI LTD,15901792,active,"4 Horner Garth, Driffield, YO25 5DQ, England",2024-08-16,ltd,"ROSS, Naomi Layla Lauren, Dr",director
+Veterinary,VETERINARY EQUINE DENTISTRY LIMITED,SC602917,active,"Johnstonfield Dunbog, Cupar, Fife, KY14 6JG, Scotland",2018-07-18,ltd,"BURTON, Arthur Peter",director
+Veterinary,VETERINARY PAIN MANAGEMENT LTD,12338630,active,"9 Bearfield Buildings, Bradford-On-Avon, Wiltshire, BA15 1RP, England",2019-11-28,ltd,"PRINGLE, Ailsa Dorothy Lindsay, Dr",director
+Veterinary,VETERINARY PROCUREMENT PARTNERS LIMITED,17139608,active,"Nags Head Farm Nantwich Road, Newcastle, ST5 5EH, England",2026-04-07,ltd,"WRIGHT, Christopher Paul",director
+Veterinary,ALAN JEANS VETERINARY SERVICES LIMITED,SC256199,active,"The Surgery, Girvan, Ayrshire, KA26 9DB",2003-09-18,ltd,"DENHAM, Hamish Duncan Cairns",director
+Restaurants,RESTAURANT AUGUSTINE LIMITED,10678814,active,"Un9 Armstrong House First Avenue, Doncaster, South Yorkshire, DN9 3GA, United Kingdom",2017-03-20,ltd,"ZILINSKAITE, Agne",director
+Restaurants,RESTAURANT NOTED LIMITED,16447744,active,"Open House Unita1 Harris Business Park, Stoke Prior, Bromsgrove, B60 4FG, United Kingdom",2025-05-13,ltd,"MORGAN, Emma Louise",director
+Restaurants,RESTAURANT @ THE CHURCH LIMITED,14619020,active,"8 Church Green East, Redditch, Worcestershire, B98 8BP, United Kingdom",2023-01-26,ltd,"BARBER, Wayne John",director
+Restaurants,RESTAURANT 1840 LTD,NI641846,active,"Unit 448 Moat House Business Centre, Belfast, BT5 5AD, Northern Ireland",2016-11-01,ltd,"TENCH, Anjelica Cherry",director
+Restaurants,RESTAURANT ZANI LTD,10864423,active,"166 Dock Road, Tilbury, RM18 7BS, United Kingdom",2017-07-13,ltd,"VINCZE, Laszlo",secretary
+Restaurants,RESTAURANT ROYAL THAI LTD,SC558483,active,"The Cottage, Brechin, Angus, DD9 7DJ, Scotland",2017-02-23,ltd,"HEBENTON, Natajon",director
