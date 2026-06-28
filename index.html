@@ -88,6 +88,8 @@
     .btn-gold:hover { filter: brightness(1.12); transform: translateY(-1px); }
     .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
     .btn-outline:hover { border-color: var(--teal); color: #fff; }
+    .btn-outline-teal { background: transparent; border: 1px solid var(--teal); color: var(--teal); }
+    .btn-outline-teal:hover { background: var(--teal-lo); color: #fff; }
     .btn-sm { padding: 8px 18px; font-size: 13px; }
     .btn-lg { padding: 14px 34px; font-size: 16px; }
     .btn-block { width: 100%; }
@@ -373,6 +375,29 @@
     .prod-detail { font-size: 12px; color: var(--teal); text-decoration: none; margin-bottom: 9px; display: block; }
     .prod-detail:hover { text-decoration: underline; }
 
+    /* ── Sample Pack ─────────────────────────────────────── */
+    .sample-card {
+      background: var(--card);
+      border: 1px solid var(--border-t);
+      border-radius: var(--radius-lg);
+      padding: 28px 32px;
+      max-width: 820px;
+    }
+    .sample-card-inner { display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap; }
+    .sample-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 14px; }
+    .sample-list { list-style: none; margin: 0; padding: 0; }
+    .sample-list li {
+      font-size: 13px; color: #aac1d8; padding: 5px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .sample-list li:last-child { border: none; }
+    .sample-list li::before { content: '✓'; color: var(--teal); font-size: 11px; flex-shrink: 0; }
+    .sample-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; min-width: 180px; }
+    .sample-price { font-size: 32px; font-weight: 700; color: #fff; }
+    .sample-learn { font-size: 12px; color: var(--teal); text-decoration: none; }
+    .sample-learn:hover { text-decoration: underline; }
+
     /* ── Custom Section ──────────────────────────────────── */
     .custom-box {
       background: var(--card);
@@ -493,6 +518,8 @@
       .aff-stats { gap: 22px; }
       .affiliate-box { padding: 28px 22px; }
       .custom-box { padding: 28px 22px; }
+      .sample-card { padding: 22px 18px; }
+      .sample-card-inner { flex-direction: column; gap: 20px; }
     }
     @media (max-width: 480px) {
       .product-grid { grid-template-columns: repeat(2, 1fr); }
@@ -541,6 +568,7 @@
     <div class="hero-ctas">
       <a href="#products" class="btn btn-teal btn-lg">View Lead Lists</a>
       <a href="https://flevin4.gumroad.com/l/lpehp" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Get the Complete Collection</a>
+      <a href="https://flevin4.gumroad.com/l/rqmfm" target="_blank" rel="noopener" class="btn btn-outline-teal btn-lg" onclick="plausible('Sample Pack Click')">View Sample Pack</a>
     </div>
   </div>
 </section>
@@ -557,6 +585,33 @@
     <span>Instant download</span>
   </div>
 </div>
+
+<!-- ══ SAMPLE PACK ══════════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Try a Sample Pack First</h2>
+    <p class="section-sub">Want to inspect the data before buying a full list? The NicheVault Sample Pack gives you 25 Companies House-sourced UK B2B records in CSV format, so you can check the structure, formatting, and usefulness before purchasing a larger bundle.</p>
+    <div class="sample-card">
+      <div class="sample-card-inner">
+        <div style="flex:1">
+          <div class="sample-name">NicheVault Sample Pack — 25 UK B2B Records</div>
+          <ul class="sample-list">
+            <li>25 sample UK B2B records</li>
+            <li>CSV format — open in Excel, Google Sheets, or any CRM</li>
+            <li>Companies House-sourced business data</li>
+            <li>Includes Accountants, Solicitors, Veterinary Practices, and Restaurants</li>
+            <li>Instant Gumroad download</li>
+          </ul>
+        </div>
+        <div class="sample-cta">
+          <div class="sample-price">$0.99</div>
+          <a href="https://flevin4.gumroad.com/l/rqmfm" target="_blank" rel="noopener" class="btn btn-teal" onclick="plausible('Sample Pack Click')">Get the Sample Pack — $0.99</a>
+          <a href="/sample-pack/" class="sample-learn">Learn more about what's included →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ══ WHAT EACH RECORD INCLUDES ════════════════════════════ -->
 <section class="section">
