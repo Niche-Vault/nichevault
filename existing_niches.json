@@ -1,0 +1,30 @@
+{
+  "board": "NicheVault Existing Niches Catalog",
+  "description": "All 23 existing NicheVault UK B2B lead-list niches — do not duplicate when scouting new ideas.",
+  "source": "NicheVault Gumroad catalog and ~/nichevault/ directory listing",
+  "niches": [
+    {"slug": "accountants", "title": "UK Accountants Lead List"},
+    {"slug": "architects", "title": "UK Architects Lead List"},
+    {"slug": "builders-construction", "title": "UK Builders & Construction Lead List"},
+    {"slug": "car-dealerships", "title": "UK Car Dealerships Lead List"},
+    {"slug": "care-homes", "title": "UK Care Homes Lead List"},
+    {"slug": "chartered-surveyors", "title": "UK Chartered Surveyors Lead List"},
+    {"slug": "commercial-cleaning", "title": "UK Commercial Cleaning Lead List"},
+    {"slug": "dental-practices", "title": "UK Dental Practices Lead List"},
+    {"slug": "electricians", "title": "UK Electricians Lead List"},
+    {"slug": "estate-agents", "title": "UK Estate Agents Lead List"},
+    {"slug": "gyms-fitness", "title": "UK Gyms & Fitness Lead List"},
+    {"slug": "hairdressers-salons", "title": "UK Hairdressers & Salons Lead List"},
+    {"slug": "it-msps", "title": "UK IT & MSPs Lead List"},
+    {"slug": "mortgage-brokers", "title": "UK Mortgage Brokers Lead List"},
+    {"slug": "opticians", "title": "UK Opticians Lead List"},
+    {"slug": "pharmacies", "title": "UK Pharmacies Lead List"},
+    {"slug": "physiotherapy-chiropractic", "title": "UK Physiotherapy & Chiropractic Lead List"},
+    {"slug": "plumbers-heating", "title": "UK Plumbers & Heating Lead List"},
+    {"slug": "private-schools", "title": "UK Private Schools Lead List"},
+    {"slug": "recruitment-agencies", "title": "UK Recruitment Agencies Lead List"},
+    {"slug": "restaurants", "title": "UK Restaurants Lead List"},
+    {"slug": "solicitors", "title": "UK Solicitors Lead List"},
+    {"slug": "veterinary-practices", "title": "UK Veterinary Practices Lead List"}
+  ]
+}

@@ -10,16 +10,952 @@
     "Packaging",
     "Ready to Upload",
     "Done",
-    "Shelved"
+    "Shelved",
+    "Watchlist"
   ],
   "cards": [
     {
       "id": "78daf69e01e4",
       "title": "Solar Panel Installers UK",
-      "column": "Ideas",
+      "column": "Building CSV",
       "created_at": "2026-07-01T00:36:00.156199Z",
-      "moves": [],
-      "meta": {}
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:46:28.767913+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:46:28.767913+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Building CSV",
+          "at": "2026-07-01T00:46:28.767942+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "43220 (primary - solar thermal installers)",
+            "35110 (secondary - solar electricity generation)",
+            "71122 (engineering for energy projects)",
+            "43210 (electrical installation - solar PV)"
+          ],
+          "company_estimate": "2,000+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Installation Manager / Operations Director",
+            "Sales Director / Business Development Manager",
+            "Technical Director / Senior Engineer"
+          ],
+          "data_availability": "Good \u2014 multiple overlapping SIC codes with keyword filtering needed",
+          "why": "Solar installations in the UK have surged post-energy crisis. Installers need solar panel suppliers, inverter distributors, battery storage partners, scaffolding, electrical components, and vehicle fleets. Verified list at \u00a375 captures a fast-growing market."
+        },
+        "score_card": {
+          "data_availability": 4,
+          "market_demand": 5,
+          "competition": 3,
+          "total": 12,
+          "verdict": "Build",
+          "justification": "Strong market growth driven by energy prices and net-zero regulations. No single perfect SIC but 43220 + keyword filtering yields clean results. Some competition from free directories but a verified 100-company list at \u00a375 is still attractive for B2B suppliers targeting the solar supply chain."
+        },
+        "stage": "building_csv"
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:46:28.767913+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:46:28.767913+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:46:28.767942+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-01",
+      "title": "Industrial Valve Manufacturers UK",
+      "column": "Building CSV",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586601+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334357+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Approval Needed",
+          "at": "2026-07-01T00:42:56.994831+00:00"
+        },
+        {
+          "from": "Approval Needed",
+          "to": "Building CSV",
+          "at": "2026-07-01T00:46:13.050571+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "28120"
+          ],
+          "company_estimate": "1,200+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Sales Director / Business Development Manager",
+            "Procurement / Supply Chain Manager",
+            "Technical Director / Engineering Manager"
+          ],
+          "data_availability": "Excellent \u2014 SIC 28120 is precise",
+          "why": "Industrial valves are mission-critical in oil & gas, water treatment, chemical processing. B2B buyers need procurement contacts."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "building_csv",
+        "score_card": {
+          "data_availability": 5,
+          "market_demand": 4,
+          "competition": 5,
+          "total": 14,
+          "verdict": "Build",
+          "justification": "SIC 28120 is razor-precise. 1,200+ companies. Low competition \u2014 no Gumroad list exists for this niche. High B2B value: valve manufacturers are prime targets for industrial suppliers."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586601+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334357+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994831+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Approval Needed",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:46:13.050571+00:00",
+          "action": "move",
+          "from_column": "Approval Needed",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-02",
+      "title": "UK Courier & Delivery Services",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586646+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334392+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994848+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "53201",
+            "53202"
+          ],
+          "company_estimate": "8,000+",
+          "target_job_titles": [
+            "Owner / Managing Director",
+            "Operations Manager / Logistics Manager",
+            "Fleet Manager",
+            "Sales & Marketing Manager"
+          ],
+          "data_availability": "Excellent \u2014 SIC 53201/53202 are specific",
+          "why": "Thousands of couriers need fleet financing, insurance, tracking software, and packaging supplies."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 4,
+          "market_demand": 5,
+          "competition": 3,
+          "total": 12,
+          "verdict": "Build",
+          "justification": "Massive market (8,000+), clear buyer needs. Moderate competition \u2014 courier lists exist but are low quality from free directories. A clean, verified Companies House list would stand out."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586646+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334392+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994848+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-03",
+      "title": "UK Security Companies (Alarm/CCTV Installers)",
+      "column": "Building CSV",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586654+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334397+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Approval Needed",
+          "at": "2026-07-01T00:42:56.994851+00:00"
+        },
+        {
+          "from": "Approval Needed",
+          "to": "Building CSV",
+          "at": "2026-07-01T00:46:13.050588+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "80200"
+          ],
+          "company_estimate": "4,000+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Operations Director",
+            "Technical Director / Installation Manager",
+            "Sales Manager / Business Development Manager"
+          ],
+          "data_availability": "Excellent \u2014 SIC 80200 is very specific",
+          "why": "Security installers buy CCTV/alarm equipment, monitoring software, insurance, and fleet vehicles."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "building_csv",
+        "score_card": {
+          "data_availability": 5,
+          "market_demand": 4,
+          "competition": 4,
+          "total": 13,
+          "verdict": "Build",
+          "justification": "SIC 80200 is very precise. 4,000+ companies. Solid B2B buyers. Some competition on Apollo.io but not saturated. Security industry has clear purchasing needs."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586654+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334397+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994851+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Approval Needed",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:46:13.050588+00:00",
+          "action": "move",
+          "from_column": "Approval Needed",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-04",
+      "title": "UK Landscaping & Grounds Maintenance",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586659+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334401+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994853+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "81300"
+          ],
+          "company_estimate": "12,000+",
+          "target_job_titles": [
+            "Director / Owner",
+            "Operations Manager",
+            "Contracts Manager",
+            "Sales & Estimating Manager"
+          ],
+          "data_availability": "Good \u2014 SIC 81300 broad but filterable",
+          "why": "Commercial landscaping firms need equipment, scheduling software, insurance, and uniforms."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 3,
+          "market_demand": 4,
+          "competition": 3,
+          "total": 10,
+          "verdict": "Watchlist",
+          "justification": "Very large market (12,000+) but SIC 81300 is broad \u2014 needs filtering to separate commercial from domestic. Many sole traders. Moderate competition from free directories. Worth building but lower priority."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586659+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334401+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994853+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-05",
+      "title": "UK Caterers & Event Catering",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586665+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334405+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994856+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "56210"
+          ],
+          "company_estimate": "5,000+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Head Chef / Operations Director",
+            "Events Manager / Sales Manager",
+            "Catering Manager"
+          ],
+          "data_availability": "Good \u2014 SIC 56210 is specific to event catering",
+          "why": "Event caterers need kitchen equipment, food distributors, staffing agencies, and marketing services."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 4,
+          "market_demand": 4,
+          "competition": 3,
+          "total": 11,
+          "verdict": "Build",
+          "justification": "SIC 56210 is specific. 5,000+ companies. Event caterers have clear B2B needs. Some competition but a verified, focused list (100 companies) would still sell at \u00a375."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586665+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334405+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994856+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-06",
+      "title": "UK Property Developers (Residential)",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586671+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334408+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994858+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "41100"
+          ],
+          "company_estimate": "15,000+",
+          "target_job_titles": [
+            "Managing Director / Founder",
+            "Development Director / Project Manager",
+            "Land & Planning Manager / Acquisitions Director",
+            "Commercial Director"
+          ],
+          "data_availability": "Excellent \u2014 SIC 41100 is the perfect code",
+          "why": "Developers need architects, engineers, solicitors, construction materials, project financing, and insurance."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 5,
+          "market_demand": 5,
+          "competition": 2,
+          "total": 12,
+          "verdict": "Build",
+          "justification": "SIC 41100 is perfect. 15,000+ companies. Extremely versatile B2B target. However, HIGH competition \u2014 developer lists are commodity on Gumroad/Apollo at <\u00a350. Capped competition at 2 per validator rules."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586671+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334408+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994858+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-07",
+      "title": "UK Office Furniture Suppliers",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586691+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334419+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994863+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "46650",
+            "31092"
+          ],
+          "company_estimate": "1,500+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Sales Director / Showroom Manager",
+            "Procurement Manager",
+            "Operations / Logistics Manager"
+          ],
+          "data_availability": "Good \u2014 SIC 46650 is accurate, 31092 for manufacturing",
+          "why": "Office furniture suppliers need vehicle leasing, warehouse space, materials, and ERP software."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 3,
+          "market_demand": 3,
+          "competition": 4,
+          "total": 10,
+          "verdict": "Watchlist",
+          "justification": "Smaller market (1,500+). SIC filtering needs two codes + keywords. Moderate B2B demand. Lower urgency \u2014 office furniture is a niche-within-a-niche."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586691+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334419+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994863+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-08",
+      "title": "UK Waste Management & Recycling",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586700+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334424+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994866+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "38110",
+            "38210",
+            "38320"
+          ],
+          "company_estimate": "6,000+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Operations Director / Depot Manager",
+            "Sales & Commercial Manager",
+            "Compliance / Environmental Manager"
+          ],
+          "data_availability": "Good \u2014 multiple specific SIC codes",
+          "why": "Waste firms need fleet vehicles, maintenance, route optimization software, PPE, and insurance."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 4,
+          "market_demand": 5,
+          "competition": 4,
+          "total": 13,
+          "verdict": "Build",
+          "justification": "Strong market (6,000+). Growing sector driven by ESG regulations. Multiple clear B2B buyers: fleet, insurance, software. Low Gumroad competition."
+        },
+        "priority_watchlist": true,
+        "watchlist_note": "Scored 13/15 (DA=4, MD=5, C=4). High demand, low Gumroad competition. Priority candidate for next scouting batch."
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586700+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334424+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994866+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-09",
+      "title": "UK Printing & Signage Companies",
+      "column": "Watchlist",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586706+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334607+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Shelved",
+          "at": "2026-07-01T00:42:56.994869+00:00"
+        },
+        {
+          "from": "Shelved",
+          "to": "Watchlist",
+          "at": "2026-07-01T00:52:35.073569+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "18120",
+            "32990 + keywords"
+          ],
+          "company_estimate": "6,500+",
+          "target_job_titles": [
+            "Managing Director / Owner",
+            "Sales Director / Account Manager",
+            "Production Manager / Print Manager",
+            "Operations Director"
+          ],
+          "data_availability": "Good \u2014 SIC 18120 + keyword filtering",
+          "why": "Printers buy capital equipment, substrates, ink, software. Signage companies need vinyl, cutters, and vehicle wraps."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "watchlist",
+        "score_card": {
+          "data_availability": 3,
+          "market_demand": 4,
+          "competition": 3,
+          "total": 10,
+          "verdict": "Watchlist",
+          "justification": "Good market size (6,500+) but SIC filtering needs keyword overlays. Printing industry is mature/declining. Signage is stronger sub-niche. Moderate B2B value but needs more filtering effort."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586706+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334607+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994869+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Shelved",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:52:35.073569+00:00",
+          "action": "move",
+          "from_column": "Shelved",
+          "to_column": "Watchlist",
+          "agent": "hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "niche-10",
+      "title": "UK Boat & Marine Repair Services",
+      "column": "Building CSV",
+      "created_at": "2026-06-30T00:00:00Z",
+      "moves": [
+        {
+          "from": "Ideas",
+          "to": "Researching",
+          "at": "2026-07-01T00:42:30.586711+00:00"
+        },
+        {
+          "from": "Researching",
+          "to": "Validating",
+          "at": "2026-07-01T00:42:49.334618+00:00"
+        },
+        {
+          "from": "Validating",
+          "to": "Approval Needed",
+          "at": "2026-07-01T00:42:56.994871+00:00"
+        },
+        {
+          "from": "Approval Needed",
+          "to": "Building CSV",
+          "at": "2026-07-01T00:46:13.050593+00:00"
+        }
+      ],
+      "meta": {
+        "niche_brief": {
+          "sic_codes": [
+            "33150"
+          ],
+          "company_estimate": "800+",
+          "target_job_titles": [
+            "Managing Director / Owner / Yard Manager",
+            "Service Manager / Workshop Manager",
+            "Marine Engineer / Technical Director",
+            "Parts & Logistics Manager"
+          ],
+          "data_availability": "Excellent \u2014 SIC 33150 is highly precise",
+          "why": "Marine repair needs specialist tools, parts, engines, insurance, and job management software. Underserved niche."
+        },
+        "research_report": "niche_research_report.md",
+        "stage": "building_csv",
+        "score_card": {
+          "data_availability": 5,
+          "market_demand": 4,
+          "competition": 5,
+          "total": 14,
+          "verdict": "Build",
+          "justification": "SIC 33150 is the most precise code in the set (800+ companies, zero noise). Virtually no competition \u2014 no Gumroad list exists for UK marine repair. Coastal/niche = underserved by sales outreach. High ticket value."
+        }
+      },
+      "locked_by": null,
+      "locked_at": null,
+      "history": [
+        {
+          "timestamp": "2026-07-01T00:42:30.586711+00:00",
+          "action": "move",
+          "from_column": "Ideas",
+          "to_column": "Researching",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:49.334618+00:00",
+          "action": "move",
+          "from_column": "Researching",
+          "to_column": "Validating",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:42:56.994871+00:00",
+          "action": "move",
+          "from_column": "Validating",
+          "to_column": "Approval Needed",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:46:13.050593+00:00",
+          "action": "move",
+          "from_column": "Approval Needed",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        }
+      ]
     }
   ]
 }

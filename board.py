@@ -42,6 +42,9 @@ def add_card(title: str, column: str = "Ideas", meta: dict = None) -> dict:
         "title": title,
         "column": column,
         "created_at": datetime.now(timezone.utc).isoformat(),
+        "locked_by": None,
+        "locked_at": None,
+        "history": [],
         "moves": [],
         "meta": meta or {},
     }
@@ -50,8 +53,8 @@ def add_card(title: str, column: str = "Ideas", meta: dict = None) -> dict:
     return card
 
 
-def move_card(card_id: str, to_column: str) -> dict:
-    """Move a card to *to_column*, logging the move with a timestamp."""
+def move_card(card_id: str, to_column: str, agent: str = "hermes-agent") -> dict:
+    """Move a card to *to_column*, logging the move with a timestamp and agent name."""
     board = _load()
     if to_column not in board["columns"]:
         valid = ", ".join(board["columns"])
@@ -59,16 +62,65 @@ def move_card(card_id: str, to_column: str) -> dict:
 
     for card in board["cards"]:
         if card["id"] == card_id:
+            now = datetime.now(timezone.utc).isoformat()
             move_record = {
                 "from": card["column"],
                 "to": to_column,
-                "at": datetime.now(timezone.utc).isoformat(),
+                "at": now,
+            }
+            history_entry = {
+                "timestamp": now,
+                "action": "move",
+                "from_column": card["column"],
+                "to_column": to_column,
+                "agent": agent,
             }
             card["moves"].append(move_record)
+            card["history"].append(history_entry)
             card["column"] = to_column
             _save(board)
             return card
 
+    raise ValueError(f"Card '{card_id}' not found.")
+
+
+def lock_card(card_id: str, agent: str = "hermes-agent") -> dict:
+    """Lock a card so only *agent* can act on it."""
+    board = _load()
+    for card in board["cards"]:
+        if card["id"] == card_id:
+            now = datetime.now(timezone.utc).isoformat()
+            card["locked_by"] = agent
+            card["locked_at"] = now
+            card["history"].append({
+                "timestamp": now,
+                "action": "lock",
+                "from_column": card["column"],
+                "to_column": card["column"],
+                "agent": agent,
+            })
+            _save(board)
+            return card
+    raise ValueError(f"Card '{card_id}' not found.")
+
+
+def unlock_card(card_id: str, agent: str = "hermes-agent") -> dict:
+    """Unlock a card."""
+    board = _load()
+    for card in board["cards"]:
+        if card["id"] == card_id:
+            now = datetime.now(timezone.utc).isoformat()
+            card["locked_by"] = None
+            card["locked_at"] = None
+            card["history"].append({
+                "timestamp": now,
+                "action": "unlock",
+                "from_column": card["column"],
+                "to_column": card["column"],
+                "agent": agent,
+            })
+            _save(board)
+            return card
     raise ValueError(f"Card '{card_id}' not found.")
 
 
