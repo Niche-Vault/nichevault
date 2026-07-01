@@ -1,0 +1,25 @@
+{
+  "board": "NicheVault Kanban",
+  "columns": [
+    "Ideas",
+    "Researching",
+    "Validating",
+    "Approval Needed",
+    "Building CSV",
+    "QA Check",
+    "Packaging",
+    "Ready to Upload",
+    "Done",
+    "Shelved"
+  ],
+  "cards": [
+    {
+      "id": "78daf69e01e4",
+      "title": "Solar Panel Installers UK",
+      "column": "Ideas",
+      "created_at": "2026-07-01T00:36:00.156199Z",
+      "moves": [],
+      "meta": {}
+    }
+  ]
+}
