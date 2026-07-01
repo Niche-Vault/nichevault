@@ -173,6 +173,27 @@
           "from_column": "Approval Needed",
           "to_column": "Building CSV",
           "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:54:58.963709+00:00",
+          "action": "lock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:55:19.892018+00:00",
+          "action": "lock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:55:40.876194+00:00",
+          "action": "unlock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
         }
       ]
     },
@@ -344,6 +365,27 @@
           "timestamp": "2026-07-01T00:46:13.050588+00:00",
           "action": "move",
           "from_column": "Approval Needed",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:54:58.963709+00:00",
+          "action": "lock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:55:40.876194+00:00",
+          "action": "lock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:56:05.962053+00:00",
+          "action": "unlock",
+          "from_column": "Building CSV",
           "to_column": "Building CSV",
           "agent": "hermes-agent"
         }
@@ -952,6 +994,20 @@
           "timestamp": "2026-07-01T00:46:13.050593+00:00",
           "action": "move",
           "from_column": "Approval Needed",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:54:58.963709+00:00",
+          "action": "lock",
+          "from_column": "Building CSV",
+          "to_column": "Building CSV",
+          "agent": "hermes-agent"
+        },
+        {
+          "timestamp": "2026-07-01T00:55:19.892018+00:00",
+          "action": "unlock",
+          "from_column": "Building CSV",
           "to_column": "Building CSV",
           "agent": "hermes-agent"
         }
